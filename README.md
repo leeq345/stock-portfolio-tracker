@@ -32,7 +32,8 @@ Run the app:
 streamlit run app.py
 The app will open at http://localhost:8501
 
-Usage
+## Usage
+
 Add a Stock - Enter a ticker symbol (e.g. AAPL), number of shares, and buy price in the sidebar
 View Portfolio - See your holdings, current prices, and P&L
 Check Allocation - View the donut chart showing how your money is distributed
@@ -47,23 +48,9 @@ stock-portfolio-tracker/
 ├── requirements.txt    # Python dependencies
 ├── .gitignore
 └── README.md
-Notes
-Your portfolio is saved locally in portfolio.json
-Stock prices are fetched in real-time from Yahoo Finance
-No API key required — yfinance is free
-Future Features
-Price charts (historical performance)
-Portfolio vs S&P 500 benchmark
-Email price alerts
-Multi-portfolio support
+
 
 
 ---
 
-## Step 2: Initialize Git (if not already done)
 
-Open terminal in VS Code (`Ctrl+` `) and run:
-
-```bash
-cd C:\Users\LeeQuinn\stock-portfolio-tracker
-git init
