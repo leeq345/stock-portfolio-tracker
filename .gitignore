@@ -1,0 +1,17 @@
+# Personal portfolio data (each user keeps their own local file)
+portfolio.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
